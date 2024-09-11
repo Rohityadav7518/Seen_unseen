@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100% !important;
+    overflow-x: hidden;
+}
+.top-header{
+    background-color: rgb(237 235 231);
+    height: 52px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.marque-text{
+    width: 60%;
+    font-size: 22px;
+}
+.main-div{
+    height: 70px;
+}
+.img-div{
+    width: 40%;
+}
+.logo-img{
+    width: 160px;
+    margin-left: 70px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: rgb(237 235 231);
+    border-radius: 10px 10px 0px 0px;
+
+}
